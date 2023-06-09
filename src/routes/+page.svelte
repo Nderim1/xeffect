@@ -1,1 +1,10 @@
-<h1 class="text-3xl font-bold underline text-primary">Hello world!</h1>
+<script>
+	import Calendar from '../components/Habits/calendar.svelte';
+	import AddNewHabit from '../components/Habits/addNewHabit.svelte';
+	import Habit from '../components/Habits/habit.svelte';
+</script>
+
+<div class="flex flex-wrap justify-center">
+	<Habit />
+	<AddNewHabit />
+</div>
